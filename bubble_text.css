@@ -1,0 +1,90 @@
+/*p.thought {
+  position: relative;
+  left: 50px;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
+  border-radius: 58px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+p.thought:before, p.thought:after {
+  content: 'da';
+  left: 30px;
+  top: 70px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+}
+
+p.thought:after {
+  content: 'ss';
+  width: 20px;
+  height: 20px;
+  left: 5px;
+  top: 100px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+*/
+* {
+  margin: 0px;
+  paddig: 0px;
+}
+
+.box2 {
+  width: 200px;
+  height: 75px;
+  margin: 50px auto;
+  border: 4px solid #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  color: #00bfb6;
+  font-family: arial;
+  position: relative;
+  right: 350px;
+  bottom: 450px;
+}
+
+
+/* speech bubble 9 */
+
+.sb9:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -23px;
+}
+
+.sb9:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid transparent;
+  right: 50%;
+  bottom: -18px;
+}
